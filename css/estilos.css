@@ -3,7 +3,7 @@
   --vermelha: #e93d50;
   --vermelha-escura: #af303f;
   --branca: #fff;
-  --luz: rgb(229, 255, 0);
+  --luz: #e5ff00;
 }
 
 body {
@@ -48,6 +48,7 @@ h1 {
 }
 
 .tecla:hover {
+  box-shadow: 1px 1px 10px var(--luz);
   transform: translateY(0) scale(1.1);
 }
 
